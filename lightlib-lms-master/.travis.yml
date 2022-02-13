@@ -1,0 +1,10 @@
+language: csharp
+mono: none
+dotnet: 5.0.2
+
+install:
+- dotnet restore
+
+script:
+- dotnet build
+# - dotnet test Library.Tests\Library.Tests.csproj
