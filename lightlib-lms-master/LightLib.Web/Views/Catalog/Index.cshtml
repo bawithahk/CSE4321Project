@@ -23,6 +23,46 @@
         <button class="btn btn-primary btn-sm">
             Add New Asset 
         </button>
+        <h3>Add a new book</h3>
+        <form onsubmit="createBook(event)">
+            <label for="title">Title</label>
+            <input id="title" type="text" value=""/>
+            <br/>
+
+            <label for="author">Author</label>
+            <input id="author" type="text" value=""/>
+            <br/>
+
+            <label for="isbn">ISBN</label>
+            <input id="isbn" type="text" value=""/>
+            <br/>
+
+            <label for="publicationYear">Publication Year</label>
+            <input id="publicationYear" type="text" value=""/>
+            <br/>
+
+            <label for="edition">Edition</label>
+            <input id="edition" type="text" value=""/>
+            <br/>
+
+            <label for="publisher">Publisher</label>
+            <input id="publisher" type="text" value=""/>
+            <br/>
+
+            <label for="deweyIndex">Dewey Index</label>
+            <input id="deweyIndex" type="text" value=""/>
+            <br/>
+
+            <label for="language">Language</label>
+            <input id="language" type="text" value=""/>
+            <br/>
+
+            <label for="summary">Summary</label>
+            <input id="summary" type="text" value=""/>
+            <br/>
+            
+            <input type="submit" value="Submit"/>
+        </form>
     </div>
 </div>
 
@@ -66,3 +106,8 @@
 </div>
 
 
+<script>
+    var createBook = (event) => {
+
+    }
+</script>
