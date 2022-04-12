@@ -23,6 +23,26 @@
         <button class="btn btn-primary btn-sm">
             Add New Asset 
         </button>
+        <h3>Create a New Book</h3>
+        <form onsubmit="createBook(event)">
+            <label for="title">Title:</label>
+            <input id="title" type="text" placeholder="Title"/>
+            <br/>
+            
+            <label for="author">Author:</label>
+            <input id="author" type="text" placeholder="Author"/>
+            <br/>
+            
+            <label for="isbn">ISBN:</label>
+            <input id="isbn" type="text" placeholder="ISBN"/>
+            <br/>
+            
+            <label for="publicationYear">Publication Year:</label>
+            <input id="publicationYear" type="text" placeholder="Publication Year"/>
+            <br/>
+            
+            <input type="submit" value="Submit"/>
+        </form>
     </div>
 </div>
 
@@ -65,4 +85,23 @@
     </div>
 </div>
 
+<script>
+    var createBook = (event) => {
+        event.preventDefault();
+        var book = {
+            Id: 0,
+            AssetId: 0,
+            Title: document.getElementById("title").value,
+            Author: document.getElementById("author").value,
+            ISBN: document.getElementById("isbn").value,
+            PublicationYear: document.getElementById("publicationYear"),
+            Edition: "2",
+            Publisher: "publisher",
+            DeweyIndex: "1.3",
+            Language: "eng",
+            Summary: "sum"
+        }
 
+        console.log(book);
+    }
+</script>

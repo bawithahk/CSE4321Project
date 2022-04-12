@@ -1,6 +1,8 @@
 ﻿using System.Threading.Tasks;
+using LightLib.Data.Models;
 using LightLib.Models;
 using LightLib.Models.DTOs;
+using Microsoft.EntityFrameworkCore;
 
 namespace LightLib.Service.Interfaces {
     public interface IPatronService {
@@ -10,5 +12,7 @@ namespace LightLib.Service.Interfaces {
         Task<PaginationResult<CheckoutDto>> GetPaginatedCheckouts(int patronId, int page, int perPage);
         Task<PatronDto> Get(int patronId);
         Task<bool> Add(PatronDto newPatron);
+        Task<DbSet<LibraryCard>> GetLibraryCards();
+        Task<DbSet<LibraryBranch>> GetLibraryBranches();
     }
 }

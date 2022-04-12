@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LightLib.Data.Models;
 using LightLib.Models;
 using LightLib.Models.DTOs;
 using LightLib.Service.Helpers;
 using LightLib.Service.Interfaces;
 using LightLib.Web.Models.Patron;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LightLib.Web.Controllers {
     
@@ -65,6 +67,44 @@ namespace LightLib.Web.Controllers {
             };
 
             return View(model);
+        }
+
+        public async Task<IActionResult> Create() {
+            
+            var libraryCards = await _patronService.GetLibraryCards();
+            
+            int[] cardIds = new int[libraryCards.Count()];
+            int i = 0;
+            foreach (var card in libraryCards)
+            {
+                cardIds[i] = card.Id;
+                i++;
+            }
+
+            ViewData["cardIds"] = cardIds;
+
+            var branches = await _patronService.GetLibraryBranches();
+            ViewData["branches"] = branches;
+            
+
+
+            //var libraryCards = await _patronService.GetLibraryCards();
+            var cardIdsStr = "";
+            foreach (var card in libraryCards)
+            {
+                cardIdsStr = cardIdsStr + card.Id + ";";
+            }
+            ViewData["cardIdsStr"] = cardIdsStr;
+
+            //var branches = await _patronService.GetLibraryBranches();
+            var branchNamesStr = "";
+            foreach (var branch in branches)
+            {
+                branchNamesStr = branchNamesStr + branch.Id + "-" + branch.Name + ";";
+            }
+            ViewData["branchesStr"] = branchNamesStr;
+            
+            return View();
         }
     }
 }

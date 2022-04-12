@@ -32,6 +32,18 @@ namespace LightLib.Service.Patrons {
             return _mapper.Map<PatronDto>(patron);
         }
 
+        public async Task<DbSet<LibraryCard>> GetLibraryCards()
+        {
+            var libraryCards = _context.LibraryCards;
+            return libraryCards;
+        }
+
+        public async Task<DbSet<LibraryBranch>> GetLibraryBranches()
+        {
+            var libraryBranches =  _context.LibraryBranches;
+            return libraryBranches;
+        }
+
         public async Task<bool> Add(PatronDto newPatronDto) {
             var newPatron = _mapper.Map<Patron>(newPatronDto);
             await _context.AddAsync(newPatron);
