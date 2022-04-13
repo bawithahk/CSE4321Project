@@ -64,24 +64,13 @@
 
 <hr />
 
+@*  this is the button to remove the user
+    when button is pressed it calls RemoveUser in LightLib.Web/PatronController.cs
+*@
 <div class="row">
     <div class="col-12">
-        <button class="btn btn-primary btm-sm" onclick="deletePatron()">
+        <button class="btn btn-primary btm-sm" type="button" onclick="location.href='@Url.Action("RemoveUser", "Patron")'"> 
             Remove Patron
         </button>
     </div>
 </div>
-
-<script>
-    deletePatron = () => {
-        var pg = require('pg');
-
-        var connectionString = "postgres://library_admin:library_admin@lightlib/localhost:5432/lightlib_dev";
-
-        var pgClient = new pg.Client(connectionString);
-
-        pgClient.connect();
-
-        var query = pgClient.query("DELETE * FROM patrons WHERE Id='Id'")
-    }
-</script>

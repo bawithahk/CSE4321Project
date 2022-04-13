@@ -69,6 +69,15 @@ namespace LightLib.Web.Controllers {
             return View(model);
         }
 
+        // This calls RemovePatron() in LightLib.service/Patrons/PatronService.cs
+        // doesn't actually remove the user itself, just passes it the ID of the user
+        // doesn't return anything yet. Other functions here return a view.. is this where 
+        // we need to return to the Patron Index page or something?
+        public void RemoveUser(int id)
+        {
+            _patronService.RemovePatron(id);
+        }
+
         public async Task<IActionResult> Create() {
             
             var libraryCards = await _patronService.GetLibraryCards();

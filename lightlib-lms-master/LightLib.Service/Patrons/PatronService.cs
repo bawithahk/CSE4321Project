@@ -32,6 +32,22 @@ namespace LightLib.Service.Patrons {
             return _mapper.Map<PatronDto>(patron);
         }
 
+        // Function to remove user. Gets patron from db with provided ID, removes it, saves db state
+        // doesn't return anything for now, not even sure it works
+        // gets called from LightLib.web/Controllers.PatronController.cs
+        public void RemovePatron(int patronId)
+        {
+            var patron = _context.Patrons
+                .Include(a => a.LibraryCard)
+                .Include(a => a.HomeLibraryBranch)
+                .FirstAsync(p => p.Id == patronId);
+            
+            _context.Remove(patron);
+
+            _context.SaveChanges();
+
+        }
+
         public async Task<DbSet<LibraryCard>> GetLibraryCards()
         {
             var libraryCards = _context.LibraryCards;
