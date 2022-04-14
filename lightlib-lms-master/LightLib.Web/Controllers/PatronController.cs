@@ -166,11 +166,36 @@ namespace LightLib.Web.Controllers {
 
             if (added)
             {
-                return await Index();
+                var page = 1;
+                var perPage = 10;
+                var patrons = await _patronService.GetPaginated(page, perPage);
+
+                if (patrons != null && patrons.Results.Any()) {
+                    var viewModel = new PatronIndexModel {
+                        PageOfPatrons = patrons
+                    };
+                    return View("Index", viewModel);
+                }
+
+                var emptyModel = new PatronIndexModel {
+                    PageOfPatrons = new PaginationResult<PatronDto> {
+                        Results = new List<PatronDto>(),
+                        PerPage = perPage,
+                        PageNumber = page
+                    }
+                };
+
+                return View("Index", emptyModel);
             }
             else
             {
-                return await Create();
+                var model = new PatronCreateModel()
+                {
+                    LibraryCards = cardIds,
+                    LibraryBranches = branches
+                };
+                
+                return View("Create", model);
             }
         }
     }
