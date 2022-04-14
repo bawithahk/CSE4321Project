@@ -6,6 +6,7 @@ using LightLib.Data;
 using LightLib.Data.Models;
 using LightLib.Models;
 using LightLib.Models.DTOs;
+using LightLib.Service.Branches;
 using LightLib.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -61,12 +62,38 @@ namespace LightLib.Service.Patrons {
         }
 
         public async Task<bool> Add(PatronDto newPatronDto) {
+            //foreach (LibraryBranch branch in _context.LibraryBranches)
+            //{
+            //    if (branch.Id == newPatronDto.HomeLibraryBranch.Id)
+            //    {
+            //        _context.Entry(branch).State = EntityState.Detached;
+            //        break;
+            //    }
+            //}
+            
             var newPatron = _mapper.Map<Patron>(newPatronDto);
             await _context.AddAsync(newPatron);
             await _context.SaveChangesAsync();
             return true;
         }
-        
+
+        public async Task<bool> AddCard(LibraryCardDto libraryCardDto)
+        {
+            var newLibraryCard = _mapper.Map<LibraryCard>(libraryCardDto);
+            await _context.AddAsync(newLibraryCard);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<LibraryBranchDto> GetLibraryBranch(int branchId) {
+            var branches = await _context.LibraryBranches
+                .AsNoTracking()
+                .Include(b => b.Patrons)
+                .Include(b => b.LibraryAssets)
+                .FirstAsync(p => p.Id == branchId);
+            return _mapper.Map<LibraryBranchDto>(branches);
+        }
+
         public async Task<PaginationResult<PatronDto>> GetPaginated(int page, int perPage) {
             var patrons = _context.Patrons;
             var pageOfPatrons = await patrons.ToPaginatedResult(page, perPage);
