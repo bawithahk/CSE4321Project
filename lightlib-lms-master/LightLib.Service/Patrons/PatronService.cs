@@ -46,6 +46,15 @@ namespace LightLib.Service.Patrons {
         }
 
         public async Task<bool> Add(PatronDto newPatronDto) {
+            //foreach (LibraryBranch branch in _context.LibraryBranches)
+            //{
+            //    if (branch.Id == newPatronDto.HomeLibraryBranch.Id)
+            //    {
+            //        _context.Entry(branch).State = EntityState.Detached;
+            //        break;
+            //    }
+            //}
+            
             var newPatron = _mapper.Map<Patron>(newPatronDto);
             await _context.AddAsync(newPatron);
             await _context.SaveChangesAsync();

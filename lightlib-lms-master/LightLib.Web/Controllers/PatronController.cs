@@ -130,7 +130,7 @@ namespace LightLib.Web.Controllers {
                 Id = id,
                 Created = DateTime.Now
             };
-            var addedCard = await _patronService.AddCard(newCard);
+            //var addedCard = await _patronService.AddCard(newCard);
 
             var branches = await _patronService.GetLibraryBranches();
             LibraryBranch homeBranch = new LibraryBranch { };
@@ -155,35 +155,23 @@ namespace LightLib.Web.Controllers {
                 DateOfBirth = DateTime.Parse(dob),
                 Email = email,
                 Telephone = tel,
-                LibraryCard = newCard,
-                HomeLibraryBranch = homeBranchDto
+                LibraryCardId = newCard.Id,
+                HomeLibrary = homeBranch.Name,
+                //LibraryCard = newCard,
+                //HomeLibraryBranch = homeBranchDto,
+                //HomeLibraryBranchId = homeBranch.Id
             };
 
             bool added = await _patronService.Add(newPatron);
 
             if (added)
             {
-                var patrons = await _patronService.GetPaginated(1, 10);
-
-                if (patrons != null && patrons.Results.Any())
-                {
-                    var viewModel = new PatronIndexModel
-                    {
-                        PageOfPatrons = patrons
-                    };
-
-                    return View(viewModel);
-                }
-            } else
-            {
-                var model = new PatronCreateModel()
-                {
-                    LibraryCards = cardIds,
-                    LibraryBranches = branches
-                };
-                return View(model);
+                return await Index();
             }
-            return View();
+            else
+            {
+                return await Create();
+            }
         }
     }
 }

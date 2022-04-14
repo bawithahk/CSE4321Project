@@ -25,8 +25,10 @@ namespace LightLib.Web {
 
             services.AddSingleton(Configuration);
             
-            services.AddDbContext<LibraryDbContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("LibraryConnection")));
+            services.AddDbContext<LibraryDbContext>(options => {
+                options.UseNpgsql(Configuration.GetConnectionString("LibraryConnection"));
+                options.EnableSensitiveDataLogging();
+            });
 
             services.AddAutoMapper(c => c.AddProfile<EntityMappingProfile>(), typeof(Startup));
             
