@@ -17,5 +17,6 @@ namespace LightLib.Service.Interfaces {
         Task<bool> Edit(PatronDto editPatronDto);
         Task<DbSet<LibraryCard>> GetLibraryCards();
         Task<DbSet<LibraryBranch>> GetLibraryBranches();
+        Task<bool> RemovePatron(int id);
     }
 }
