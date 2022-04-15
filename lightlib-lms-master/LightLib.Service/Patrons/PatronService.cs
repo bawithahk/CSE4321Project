@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -36,17 +37,18 @@ namespace LightLib.Service.Patrons {
         // Function to remove user. Gets patron from db with provided ID, removes it, saves db state
         // doesn't return anything for now, not even sure it works
         // gets called from LightLib.web/Controllers.PatronController.cs
-        public void RemovePatron(int patronId)
+        public async Task<bool> RemovePatron(int patronId)
         {
-            var patron = _context.Patrons
-                .Include(a => a.LibraryCard)
-                .Include(a => a.HomeLibraryBranch)
+            var patron = await _context.Patrons
                 .FirstAsync(p => p.Id == patronId);
-            
+
+            var patronDto = _mapper.Map<PatronDto>(patron);
+
             _context.Remove(patron);
 
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
+            return true;
         }
 
         public async Task<DbSet<LibraryCard>> GetLibraryCards()
