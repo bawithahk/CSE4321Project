@@ -1558,3 +1558,13 @@
 2022-04-14 18:29:49.4772 Info Adding target FileTarget(Name=allfile)
 2022-04-14 18:29:49.4820 Info Adding target FileTarget(Name=ownFile-web)
 2022-04-14 18:29:49.5030 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=C:\Users\drbbr\Documents\GitHub\CSE4321Project\lightlib-lms-master\LightLib.Web\bin\Debug\net5.0\nlog.config
+2022-04-14 22:08:37.8134 Info Message Template Auto Format enabled
+2022-04-14 22:08:37.8656 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-14 22:08:38.1012 Info Adding target FileTarget(Name=allfile)
+2022-04-14 22:08:38.2657 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-14 22:08:38.3755 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=C:\Users\skinn\Documents\code\CSE4321Project\lightlib-lms-master\LightLib.Web\bin\Debug\net5.0\nlog.config
+2022-04-14 22:16:16.4059 Info Message Template Auto Format enabled
+2022-04-14 22:16:16.4797 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-14 22:16:16.5655 Info Adding target FileTarget(Name=allfile)
+2022-04-14 22:16:16.5793 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-14 22:16:16.6447 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=C:\Users\skinn\Documents\code\CSE4321Project\lightlib-lms-master\LightLib.Web\bin\Debug\net5.0\nlog.config

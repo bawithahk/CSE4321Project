@@ -76,9 +76,31 @@ namespace LightLib.Web.Controllers {
         // doesn't return anything yet. Other functions here return a view.. is this where 
         // we need to return to the Patron Index page or something?
         // TODO: where are we getting the Patron ID from?
-        public void RemoveUser(int id)
+        public async Task<IActionResult> RemoveUser(int id)
         {
-            _patronService.RemovePatron(id);
+            await _patronService.RemovePatron(id);
+
+            int page = 1;
+            int perPage = 10;
+            var patrons = await _patronService.GetPaginated(page, perPage);
+
+            if (patrons != null && patrons.Results.Any()) {
+                var viewModel = new PatronIndexModel {
+                    PageOfPatrons = patrons
+                };
+
+                return View("Index", viewModel);
+            }
+            
+            var emptyModel = new PatronIndexModel {
+                PageOfPatrons = new PaginationResult<PatronDto> {
+                    Results = new List<PatronDto>(),
+                    PerPage = perPage,
+                    PageNumber = page
+                }
+            };
+            
+            return View("Index", emptyModel);
         }
 
         public async Task<IActionResult> Create() {
