@@ -14,6 +14,7 @@ namespace LightLib.Service.Interfaces {
         Task<bool> AddCard(LibraryCardDto newLibaryCard);
         Task<LibraryBranchDto> GetLibraryBranch(int branchId);
         Task<bool> Add(PatronDto newPatron);
+        Task<bool> Edit(PatronDto editPatronDto);
         Task<DbSet<LibraryCard>> GetLibraryCards();
         Task<DbSet<LibraryBranch>> GetLibraryBranches();
     }

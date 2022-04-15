@@ -61,6 +61,21 @@ namespace LightLib.Service.Patrons {
             return true;
         }
 
+        public async Task<bool> Edit(PatronDto editPatronDto) {
+            var editPatron = _mapper.Map<Patron>(editPatronDto);
+            var patron = _context.Patrons.FirstOrDefault(p => p.Id == editPatron.Id);
+            patron.FirstName = editPatron.FirstName;
+            patron.LastName = editPatron.LastName;
+            patron.Address = editPatron.Address;
+            patron.Telephone = editPatron.Telephone;
+            patron.Email = editPatron.Email;
+            patron.DateOfBirth = editPatron.DateOfBirth;
+            //patron.HomeLibraryBranch = editPatron.HomeLibraryBranch;
+            //_context.Update(editPatron);
+            _context.SaveChanges();
+            return true;
+        }
+
         public async Task<bool> AddCard(LibraryCardDto libraryCardDto)
         {
             var newLibraryCard = _mapper.Map<LibraryCard>(libraryCardDto);

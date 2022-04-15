@@ -26,6 +26,9 @@
             <td>@Model.Email</td>
           </tr>
         </table>
+        <a asp-controller="Patron" asp-action="Edit" asp-route-id="@Model.Id">
+            <button class="btn btn-primary btn-sm">Edit Info</button>
+        </a>
       </div>
     </div>
   </div>
