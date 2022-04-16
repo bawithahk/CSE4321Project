@@ -261,7 +261,7 @@ namespace LightLib.Web.Controllers {
                 Address = patron.Address,
                 DateOfBirth = patron.DateOfBirth.ToString("yyyy-MM-dd"),
                 Telephone = patron.Telephone,
-                HomeLibrary = patron.HomeLibraryBranch.Name,
+                //HomeLibrary = patron.HomeLibraryBranch.Name,
                 LibraryBranches = branches
             };
 
