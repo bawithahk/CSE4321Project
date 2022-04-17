@@ -1,0 +1,432 @@
+﻿++Solution 'LightLib' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:LightLib.sln
+++LightLib.Models
+i:{00000000-0000-0000-0000-000000000000}:LightLib.Models
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\bin\debug\net5.0\lightlib.models.dll
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\bin\debug\net5.0\lightlib.models.dll
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\lightlib.models.csproj
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\bin\debug\net5.0\lightlib.models.dll
+++Dependencies
+i:{6e683f81-29a5-450d-af05-207185daf86e}:>782
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:>781
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:>1011
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:>783
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1234
+++DTOs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\
+++Assets
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\assets\
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\
+++AssetTypeDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\assettypedto.cs
+++AudioBookDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\audiobookdto.cs
+++AudioCdDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\audiocddto.cs
+++BookDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\bookdto.cs
+++DvdDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\dvddto.cs
+++LibraryAssetDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\libraryassetdto.cs
+++PeriodicalDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\assets\periodicaldto.cs
+++CheckoutDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\checkoutdto.cs
+++CheckoutHistoryDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\checkouthistorydto.cs
+++HoldDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\holddto.cs
+++LibraryBranchDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\librarybranchdto.cs
+++LibraryCardDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\librarycarddto.cs
+++PatronDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\patrondto.cs
+++StatusDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\statusdto.cs
+++TagDto.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\dtos\tagdto.cs
+++Exceptions
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\exceptions\
+++AssetStatus.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\assetstatus.cs
+++AssetType.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\assettype.cs
+++PaginationResult.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\paginationresult.cs
+++Analyzers
+i:{6e683f81-29a5-450d-af05-207185daf86e}:analyzers
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:analyzers
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:analyzers
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:analyzers
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:analyzers
+++Frameworks
+i:{6e683f81-29a5-450d-af05-207185daf86e}:frameworks
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:frameworks
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:frameworks
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:frameworks
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:frameworks
+++Packages
+i:{6e683f81-29a5-450d-af05-207185daf86e}:packages
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:packages
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:packages
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:packages
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:packages
+++LibraryServiceException.cs
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\exceptions\libraryserviceexception.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.NETCore.App
+i:{6e683f81-29a5-450d-af05-207185daf86e}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.models\microsoft.netcore.app
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\microsoft.netcore.app
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.tests\microsoft.netcore.app
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\microsoft.netcore.app
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\microsoft.netcore.app
+++AutoMapper (10.1.1)
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:>1277
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1309
+++LightLib.Service
+i:{00000000-0000-0000-0000-000000000000}:LightLib.Service
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\bin\debug\net5.0\lightlib.service.dll
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\bin\debug\net5.0\lightlib.service.dll
+++Branches
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\branches\
+++Checkout
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\checkout\
+++Helpers
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\helpers\
+++Interfaces
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\
+++Patrons
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\patrons\
+++Serialization
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\serialization\
+++Projects
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:projects
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:projects
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:projects
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:projects
+++LibraryAssetService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\assets\libraryassetservice.cs
+++StatusService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\assets\statusservice.cs
+++LibraryBranchService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\branches\librarybranchservice.cs
+++CheckoutService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\checkout\checkoutservice.cs
+++HoldService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\checkout\holdservice.cs
+++DataHelpers.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\helpers\datahelpers.cs
+++TimeSpanHumanizer.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\helpers\timespanhumanizer.cs
+++IBookService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\ibookservice.cs
+++ICheckoutService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\icheckoutservice.cs
+++IHoldService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\iholdservice.cs
+++ILibraryAssetService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\ilibraryassetservice.cs
+++ILibraryBranchService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\ilibrarybranchservice.cs
+++ILibraryCardService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\ilibrarycardservice.cs
+++IPaginator.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\ipaginator.cs
+++IPatronService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\ipatronservice.cs
+++IStatusService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\interfaces\istatusservice.cs
+++LibraryCardService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\patrons\librarycardservice.cs
+++PatronService.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\patrons\patronservice.cs
+++EntityMappingProfile.cs
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.service\serialization\entitymappingprofile.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\users\odean\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++NLog (4.7.7)
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:>1279
+++NLog.Web.AspNetCore (4.10.0)
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:>1274
+++LightLib.Data
+i:{003ce0cb-3208-490a-a562-2b441743e2f5}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\bin\debug\net5.0\lightlib.data.dll
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\bin\debug\net5.0\lightlib.data.dll
+i:{00000000-0000-0000-0000-000000000000}:LightLib.Data
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\bin\debug\net5.0\lightlib.data.dll
+++LightLib.Tests
+i:{00000000-0000-0000-0000-000000000000}:LightLib.Tests
+++xunit.analyzers
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\users\odean\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++FluentAssertions (5.10.3)
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:>1280
+++Microsoft.NET.Test.Sdk (16.8.3)
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:>1278
+++Moq (4.16.0)
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:>1286
+++xunit (2.4.1)
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:>1282
+++xunit.runner.visualstudio (2.4.3)
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:>1284
+++LightLib.Web
+i:{905ab1d6-f174-47a4-8ada-af0c6c2cc55f}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\bin\debug\net5.0\lightlib.web.dll
+i:{00000000-0000-0000-0000-000000000000}:LightLib.Web
+++Migrations
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\
+++Models
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\
+++LibraryDbContext.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\librarydbcontext.cs
+++QueryableExtensions.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\queryableextensions.cs
+++20210207041630_initial.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\20210207041630_initial.cs
+++20210207230144_add-timestamps.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\20210207230144_add-timestamps.cs
+++20220213102544_Initial Migration.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\20220213102544_initial migration.cs
+++LibraryDbContextModelSnapshot.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\librarydbcontextmodelsnapshot.cs
+++AvailabilityStatus.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\availabilitystatus.cs
+++BranchHours.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\branchhours.cs
+++Checkout.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\checkout.cs
+++CheckoutHistory.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\checkouthistory.cs
+++Hold.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\hold.cs
+++LibraryBranch.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\librarybranch.cs
+++LibraryCard.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\librarycard.cs
+++Patron.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\patron.cs
+++Microsoft.EntityFrameworkCore (5.0.2)
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:>1243
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1303
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.2)
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:>1244
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1304
+++Microsoft.EntityFrameworkCore.Tools (5.0.2)
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:>1246
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1310
+++Npgsql.EntityFrameworkCore.PostgreSQL (5.0.2)
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:>1245
+++20210207041630_initial.Designer.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\20210207041630_initial.designer.cs
+++20210207230144_add-timestamps.Designer.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\20210207230144_add-timestamps.designer.cs
+++20220213102544_Initial Migration.Designer.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\migrations\20220213102544_initial migration.designer.cs
+++Tags
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\tags\
+++Asset.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\asset.cs
+++AudioBook.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\audiobook.cs
+++AudioCds.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\audiocds.cs
+++Book.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\book.cs
+++DVD.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\dvd.cs
+++Periodical.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\periodical.cs
+++AssetTag.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\tags\assettag.cs
+++Tag.cs
+i:{73cadbac-4572-4cad-b85f-b53857f21f31}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.data\models\assets\tags\tag.cs
+++Connected Services 
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1235
+++Properties
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\properties\
+++wwwroot
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\
+++Controllers
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\controllers\
+++Branch
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\branch\
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\branch\
+++BranchDetailModel.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\branch\branchdetailmodel.cs
+++BranchIndexModel.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\branch\branchindexmodel.cs
+++Catalog
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\catalog\
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\catalog\
+++AssetDetailModel.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\catalog\assetdetailmodel.cs
+++AssetIndexModel.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\catalog\assetindexmodel.cs
+++CheckoutModels
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\checkoutmodels\
+++Patron
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\patron\
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\patron\
+++PatronDetailModel.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\patron\patrondetailmodel.cs
+++PatronIndexModel.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\patron\patronindexmodel.cs
+++Views
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\
+++Checkout.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\catalog\checkout.cshtml
+++Detail.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\catalog\detail.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\patron\detail.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\branch\detail.cshtml
+++Hold.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\catalog\hold.cshtml
+++Index.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\catalog\index.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\patron\index.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\branch\index.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\home\index.cshtml
+++Home
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\home\
+++Create.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\patron\create.cshtml
+++Edit.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\patron\edit.cshtml
+++PayFees.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\patron\payfees.cshtml
+++Shared
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\shared\
+++_ViewImports.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\_viewstart.cshtml
+++appsettings.json
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\appsettings.json
+++bower.json
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\bower.json
+++bundleconfig.json
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\bundleconfig.json
+++internal-nlog.txt
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\internal-nlog.txt
+++nlog.config
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\nlog.config
+++Program.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\program.cs
+++Startup.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\startup.cs
+++No service dependencies discovered
+++launchSettings.json
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\properties\launchsettings.json
+++css
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\css\
+++images
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\
+++libraries
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\libraries\
+++about.txt
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\about.txt
+++android-chrome-192x192.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\android-chrome-192x192.png
+++android-chrome-512x512.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\android-chrome-512x512.png
+++apple-touch-icon.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\apple-touch-icon.png
+++books_thumb.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\books_thumb.png
+++favicon.ico
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\favicon.ico
+++favicon-16x16.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\favicon-16x16.png
+++favicon-32x32.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\favicon-32x32.png
+++library_thumb.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\library_thumb.png
+++patron_thumb.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\patron_thumb.png
+++site.webmanifest
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\site.webmanifest
+++js
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\js\
+++BranchController.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\controllers\branchcontroller.cs
+++CatalogController.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\controllers\catalogcontroller.cs
+++HomeController.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\controllers\homecontroller.cs
+++LibraryController.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\controllers\librarycontroller.cs
+++PatronController.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\controllers\patroncontroller.cs
+++CheckoutModel.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\checkoutmodels\checkoutmodel.cs
+++_Layout.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\views\shared\error.cshtml
+++appsettings.Development.json
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\appsettings.development.json
+++.bowerrc
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\.bowerrc
+++Microsoft.AspNetCore.Analyzers
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\microsoft.aspnetcore.app
+++AutoMapper.Collection.EntityFrameworkCore (7.0.1)
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1308
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1305
+++Microsoft.EntityFrameworkCore.Design (5.0.2)
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1307
+++NLog.Extensions.Logging (1.7.0)
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1306
+++styles.css
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\css\styles.css
+++lib_downtown.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\libraries\lib_downtown.png
+++lib_medical.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\libraries\lib_medical.png
+++lib_oakville.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\libraries\lib_oakville.png
+++lib_pacific.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\libraries\lib_pacific.png
+++lib_westfield.png
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\images\libraries\lib_westfield.png
+++site.js
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\js\site.js
+++site.min.js
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\wwwroot\js\site.min.js
+++Npgsql (6.0.3)
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1349
+++EntityFramework6.Npgsql (6.4.3)
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1386
+++PatronClass.cs
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\models\patron\patronclass.cs
+++SQL Server Database
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1413
+++SQL Server Database dependency is detected
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:>1414
+++web.config
+i:{0ea50083-7151-4f91-b8ed-3a079a5d2098}:c:\users\odean\desktop\4321 software testing\lightlib-lms-master\lightlib.web\web.config
+++AutoMapper (11.0.1)
+i:{6e683f81-29a5-450d-af05-207185daf86e}:>1449

@@ -146,6 +146,8 @@ namespace LightLib.Web.Controllers {
             var tel = collection["tel"][0];
             var libraryBranch = collection["libraryBranch"][0];
 
+  
+
             var libraryCards = await _patronService.GetLibraryCards();
             int[] cardIds = new int[libraryCards.Count()];
             int i = 0;
