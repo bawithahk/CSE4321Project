@@ -254,6 +254,10 @@ namespace LightLib.Web.Controllers {
 
             var branches = await _patronService.GetLibraryBranches();
 
+            var homeLibraryName = "";
+            if (patron.HomeLibraryBranch != null)
+                homeLibraryName = patron.HomeLibraryBranch.Name;
+
             var model = new PatronEditModel()
             {
                 Id = patron.Id,
@@ -263,7 +267,7 @@ namespace LightLib.Web.Controllers {
                 Address = patron.Address,
                 DateOfBirth = patron.DateOfBirth.ToString("yyyy-MM-dd"),
                 Telephone = patron.Telephone,
-                HomeLibrary = patron.HomeLibraryBranch.Name,
+                HomeLibrary = homeLibraryName,
                 LibraryBranches = branches
             };
 
