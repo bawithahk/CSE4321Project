@@ -23,6 +23,46 @@
         <button class="btn btn-primary btn-sm">
             Add New Asset 
         </button>
+        <h3>Add a new book</h3>
+        <form onsubmit="createBook(event)">
+            <label for="title">Title</label>
+            <input id="title" type="text" value="Alice in Wonderland"/>
+            <br/>
+
+            <label for="author">Author</label>
+            <input id="author" type="text" value="Dees Nutz"/>
+            <br/>
+
+            <label for="isbn">ISBN</label>
+            <input id="isbn" type="text" value="111-222-3456"/>
+            <br/>
+
+            <label for="publicationYear">Publication Year</label>
+            <input id="publicationYear" type="text" value="1969"/>
+            <br/>
+
+            <label for="edition">Edition</label>
+            <input id="edition" type="text" value="First"/>
+            <br/>
+
+            <label for="publisher">Publisher</label>
+            <input id="publisher" type="text" value="Joe Mama"/>
+            <br/>
+
+            <label for="deweyIndex">Dewey Index</label>
+            <input id="deweyIndex" type="text" value="Dewey"/>
+            <br/>
+
+            <label for="language">Language</label>
+            <input id="language" type="text" value="English"/>
+            <br/>
+
+            <label for="summary">Summary</label>
+            <input id="summary" type="text" value="Beeswax, not yours"/>
+            <br/>
+            
+            <input type="submit" value="Submit"/>
+        </form>
     </div>
 </div>
 
@@ -66,3 +106,24 @@
 </div>
 
 
+<script>
+    var createBook = (event) => {
+        event.preventDefault();
+
+        var book = {
+            Id: 0,
+            AssetId: 0,
+            Title: document.getElementById("title").value,
+            Author: document.getElementById("author").value,
+            ISBN: document.getElementById("isbn").value,
+            PublicationYear: document.getElementById("publicationYear").value,
+            Edition: document.getElementById("edition").value,
+            Publisher: document.getElementById("publisher").value,
+            DeweyIndex: document.getElementById("deweyIndex").value,
+            Language: document.getElementById("language").value,
+            Summary: document.getElementById("summary").value
+        }
+
+        console.log("the book is: ", book);
+    }
+</script>

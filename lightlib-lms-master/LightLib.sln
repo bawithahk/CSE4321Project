@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightLib.Data", "LightLib.Data\LightLib.Data.csproj", "{73CADBAC-4572-4CAD-B85F-B53857F21F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightLib.Data", "LightLib.Data\LightLib.Data.csproj", "{73CADBAC-4572-4CAD-B85F-B53857F21F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightLib.Models", "LightLib.Models\LightLib.Models.csproj", "{6E683F81-29A5-450D-AF05-207185DAF86E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightLib.Models", "LightLib.Models\LightLib.Models.csproj", "{6E683F81-29A5-450D-AF05-207185DAF86E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightLib.Service", "LightLib.Service\LightLib.Service.csproj", "{003CE0CB-3208-490A-A562-2B441743E2F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightLib.Service", "LightLib.Service\LightLib.Service.csproj", "{003CE0CB-3208-490A-A562-2B441743E2F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightLib.Tests", "LightLib.Tests\LightLib.Tests.csproj", "{905AB1D6-F174-47A4-8ADA-AF0C6C2CC55F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightLib.Tests", "LightLib.Tests\LightLib.Tests.csproj", "{905AB1D6-F174-47A4-8ADA-AF0C6C2CC55F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightLib.Web", "LightLib.Web\LightLib.Web.csproj", "{0EA50083-7151-4F91-B8ED-3A079A5D2098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightLib.Web", "LightLib.Web\LightLib.Web.csproj", "{0EA50083-7151-4F91-B8ED-3A079A5D2098}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,17 @@
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\LightLib.Service.deps.json
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\LightLib.Service.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\ref\LightLib.Service.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\LightLib.Service.pdb
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\LightLib.Data.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\LightLib.Models.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\LightLib.Data.pdb
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\bin\Debug\net5.0\LightLib.Models.pdb
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.csproj.AssemblyReference.cache
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.AssemblyInfoInputs.cache
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.AssemblyInfo.cs
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.csproj.CoreCompileInputs.cache
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.csproj.CopyComplete
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\ref\LightLib.Service.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Service\obj\Debug\net5.0\LightLib.Service.pdb

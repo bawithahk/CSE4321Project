@@ -17,5 +17,7 @@ namespace LightLib.Models.DTOs {
         public int LibraryCardId { get; set;  }
         public decimal OverdueFees { get; set;  }
         public string HomeLibrary { get; set;  }
+
+        //public int HomeLibraryBranchId { get; set; }
     }
 }

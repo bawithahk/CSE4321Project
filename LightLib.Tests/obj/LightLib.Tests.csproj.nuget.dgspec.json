@@ -1,0 +1,460 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Tests\\LightLib.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj",
+        "projectName": "LightLib.Data",
+        "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj",
+        "packagesPath": "C:\\Users\\odean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\odean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj",
+        "projectName": "LightLib.Models",
+        "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj",
+        "packagesPath": "C:\\Users\\odean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\odean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\LightLib.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\LightLib.Service.csproj",
+        "projectName": "LightLib.Service",
+        "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\LightLib.Service.csproj",
+        "packagesPath": "C:\\Users\\odean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\odean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj"
+              },
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.7, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Tests\\LightLib.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Tests\\LightLib.Tests.csproj",
+        "projectName": "LightLib.Tests",
+        "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Tests\\LightLib.Tests.csproj",
+        "packagesPath": "C:\\Users\\odean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\odean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj"
+              },
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj"
+              },
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\LightLib.Service.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\LightLib.Service.csproj"
+              },
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Web\\LightLib.Web.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Web\\LightLib.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Web\\LightLib.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Web\\LightLib.Web.csproj",
+        "projectName": "LightLib.Web",
+        "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Web\\LightLib.Web.csproj",
+        "packagesPath": "C:\\Users\\odean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\odean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Data\\LightLib.Data.csproj"
+              },
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Models\\LightLib.Models.csproj"
+              },
+              "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\LightLib.Service.csproj": {
+                "projectPath": "C:\\Users\\odean\\Desktop\\4321 Software Testing\\lightlib-lms-master\\LightLib.Service\\LightLib.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Collection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

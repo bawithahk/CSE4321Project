@@ -26,6 +26,9 @@
             <td>@Model.Email</td>
           </tr>
         </table>
+        <a asp-controller="Patron" asp-action="Edit" asp-route-id="@Model.Id">
+            <button class="btn btn-primary btn-sm">Edit Info</button>
+        </a>
       </div>
     </div>
   </div>
@@ -63,3 +66,15 @@
 </section>
 
 <hr />
+
+@*  this is the button to remove the user
+    when button is pressed it calls RemoveUser in LightLib.Web/PatronController.cs
+    TODO: figure out how to pass Patron ID to RemoveUser()
+*@
+<div class="row">
+    <div class="col-12">
+        <button class="btn btn-primary btm-sm" type="button" onclick="location.href='@Url.Action("RemoveUser", "Patron", new {id = @Model.Id})'"> 
+            Remove Patron
+        </button>
+    </div>
+</div>

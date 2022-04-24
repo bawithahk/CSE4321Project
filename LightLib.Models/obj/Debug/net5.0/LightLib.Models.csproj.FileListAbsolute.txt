@@ -1,0 +1,12 @@
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\bin\Debug\net5.0\LightLib.Models.deps.json
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\bin\Debug\net5.0\LightLib.Models.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\bin\Debug\net5.0\ref\LightLib.Models.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\bin\Debug\net5.0\LightLib.Models.pdb
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\LightLib.Models.csproj.AssemblyReference.cache
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\LightLib.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\LightLib.Models.AssemblyInfoInputs.cache
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\LightLib.Models.AssemblyInfo.cs
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\LightLib.Models.csproj.CoreCompileInputs.cache
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\LightLib.Models.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\ref\LightLib.Models.dll
+C:\Users\odean\Desktop\4321 Software Testing\lightlib-lms-master\LightLib.Models\obj\Debug\net5.0\LightLib.Models.pdb

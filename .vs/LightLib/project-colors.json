@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0ea50083-7151-4f91-b8ed-3a079a5d2098": {
+      "ProjectGuid": "0ea50083-7151-4f91-b8ed-3a079a5d2098",
+      "DisplayName": "LightLib.Web",
+      "ColorIndex": 0
+    },
+    "73cadbac-4572-4cad-b85f-b53857f21f31": {
+      "ProjectGuid": "73cadbac-4572-4cad-b85f-b53857f21f31",
+      "DisplayName": "LightLib.Data",
+      "ColorIndex": 1
+    },
+    "6e683f81-29a5-450d-af05-207185daf86e": {
+      "ProjectGuid": "6e683f81-29a5-450d-af05-207185daf86e",
+      "DisplayName": "LightLib.Models",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

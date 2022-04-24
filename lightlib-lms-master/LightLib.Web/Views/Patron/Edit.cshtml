@@ -1,5 +1,29 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model LightLib.Web.Models.Patron.PatronEditModel
 @{
+    ViewBag.Title = $"Edit: {@Model.LastName}, {@Model.FirstName}";
 }
+
+<form method="post" action="@Url.Action("EditPatron", "Patron")">
+    <label for="fname">First Name:</label><input type="text" id="fname" name="fname" value="@Model.FirstName"><br>
+    <label for="lname">Last Name:</label><input type="text" id="lname" name="lname" value="@Model.LastName"><br>
+    <label for="addr">Address:</label><input type="text" id="addr" name="addr" value="@Model.Address"><br>
+    <label for="dob">Date of Birth:</label><input type="date" id="dob" name="dob" value="@Model.DateOfBirth"><br>
+    <label for="email">Email:</label><input type="email" id="email" name="email" value="@Model.Email"><br>
+    <label for="tel">Telephone:</label><input type="tel" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" name="tel" value="@Model.Telephone"><br>
+    <label for="homeLibId">Home Library Branch ID:</label><br>
+    @foreach (var branch in Model.LibraryBranches)
+    {
+        if (branch.Name == Model.HomeLibrary)
+        {
+            <input type="radio" id="@branch.Id" value="@branch.Name" name="libraryBranch" checked>
+        }
+        else
+        {
+            <input type="radio" id="@branch.Id" value="@branch.Name" name="libraryBranch">
+        }
+        <label for="@branch.Id">@branch.Name</label><br>
+    }
+    <input type="hidden" id="id" name="id" value="@Model.Id" />
+    <input type="submit" value="Submit"/>
+</form>
+
